@@ -1,0 +1,533 @@
+library(nangate45_120x64_1P_bit) {
+	technology (cmos);
+	delay_model		: table_lookup;
+	revision		: 1.1;
+	date			: "2019-07-19 13:28:28Z";
+	comment			: "SRAM";
+	time_unit		: "1ns";
+	voltage_unit		: "1V";
+	current_unit		: "1mA";
+	leakage_power_unit	: "1mW";
+	nom_process		: 1;
+	nom_temperature		: 25.000;
+	nom_voltage		: 1.000;
+	capacitive_load_unit	 (1,pf);
+
+	pulling_resistance_unit         : "1kohm";
+
+	/* additional header data */
+	default_cell_leakage_power      : 0;
+	default_fanout_load		: 1;
+	default_inout_pin_cap		: 0.005;
+	default_input_pin_cap		: 0.005;
+	default_output_pin_cap		: 0.0;
+	default_max_transition		: 0.603;
+
+        /* default attributes */
+        default_leakage_power_density : 0.0;
+        slew_derate_from_library      : 1.000;
+        slew_lower_threshold_pct_fall : 10.000;
+        slew_upper_threshold_pct_fall : 90.000;
+        slew_lower_threshold_pct_rise : 10.000;
+        slew_upper_threshold_pct_rise : 90.000;
+        input_threshold_pct_fall      : 50.000;
+        input_threshold_pct_rise      : 50.000;
+        output_threshold_pct_fall     : 50.000;
+        output_threshold_pct_rise     : 50.000;
+
+ 	/* k-factors */
+ 	k_process_cell_fall             : 1;
+ 	k_process_cell_leakage_power    : 0;
+ 	k_process_cell_rise             : 1;
+ 	k_process_fall_transition       : 1;
+ 	k_process_hold_fall             : 1;
+ 	k_process_hold_rise             : 1;
+ 	k_process_internal_power        : 0;
+ 	k_process_min_pulse_width_high  : 1;
+ 	k_process_min_pulse_width_low   : 1;
+ 	k_process_pin_cap               : 0;
+ 	k_process_recovery_fall         : 1;
+ 	k_process_recovery_rise         : 1;
+ 	k_process_rise_transition       : 1;
+ 	k_process_setup_fall            : 1;
+ 	k_process_setup_rise            : 1;
+ 	k_process_wire_cap              : 0;
+ 	k_process_wire_res              : 0;
+	k_temp_cell_fall		: 0.000;
+	k_temp_cell_rise		: 0.000;
+	k_temp_hold_fall                : 0.000;
+	k_temp_hold_rise                : 0.000;
+	k_temp_min_pulse_width_high     : 0.000;
+	k_temp_min_pulse_width_low      : 0.000;
+	k_temp_min_period               : 0.000;
+	k_temp_rise_propagation         : 0.000;
+	k_temp_fall_propagation         : 0.000;
+	k_temp_rise_transition          : 0.0;
+	k_temp_fall_transition          : 0.0;
+	k_temp_recovery_fall            : 0.000;
+	k_temp_recovery_rise            : 0.000;
+	k_temp_setup_fall               : 0.000;
+	k_temp_setup_rise               : 0.000;
+	k_volt_cell_fall                : 0.000;
+	k_volt_cell_rise                : 0.000;
+	k_volt_hold_fall                : 0.000;
+	k_volt_hold_rise                : 0.000;
+	k_volt_min_pulse_width_high     : 0.000;
+	k_volt_min_pulse_width_low      : 0.000;
+	k_volt_min_period               : 0.000;
+	k_volt_rise_propagation         : 0.000;
+	k_volt_fall_propagation         : 0.000;
+	k_volt_rise_transition	        : 0.0;
+	k_volt_fall_transition	        : 0.0;
+	k_volt_recovery_fall            : 0.000;
+	k_volt_recovery_rise            : 0.000;
+	k_volt_setup_fall               : 0.000;
+	k_volt_setup_rise               : 0.000;
+
+
+        operating_conditions(tt_1.0_25.0) {
+		process	 : 1;
+		temperature	 : 25.000;
+		voltage	 : 1.000;
+		tree_type	 : balanced_tree;
+	}
+        default_operating_conditions : tt_1.0_25.0;
+	wire_load("sample") {
+		resistance	 : 1.6e-05;
+		capacitance	 : 0.0002;
+		area	 : 1.7;
+  		slope	 : 500;
+		fanout_length	 (1,500);
+	}
+        lu_table_template(nangate45_120x64_1P_bit_mem_out_delay_template) {
+           variable_1 : input_net_transition;
+           variable_2 : total_output_net_capacitance;
+               index_1 ("1000, 1001");
+               index_2 ("1000, 1001");
+        }
+	lu_table_template(nangate45_120x64_1P_bit_mem_out_slew_template) {
+           variable_1 : total_output_net_capacitance;
+               index_1 ("1000, 1001");
+        }
+	lu_table_template(nangate45_120x64_1P_bit_constraint_template) {
+           variable_1 : related_pin_transition;
+           variable_2 : constrained_pin_transition;
+               index_1 ("1000, 1001");
+               index_2 ("1000, 1001");
+        }
+        power_lut_template(nangate45_120x64_1P_bit_energy_template_clkslew) {
+           variable_1 : input_transition_time;
+               index_1 ("1000, 1001");
+        }
+        power_lut_template(nangate45_120x64_1P_bit_energy_template_sigslew) {
+           variable_1 : input_transition_time;
+               index_1 ("1000, 1001");
+        }
+	library_features(report_delay_calculation);
+	type (nangate45_120x64_1P_bit_DATA) {
+		base_type : array ;
+		data_type : bit ;
+		bit_width : 120;
+		bit_from : 119;
+		bit_to : 0 ;
+		downto : true ;
+	}
+	type (nangate45_120x64_1P_bit_ADDRESS) {
+		base_type : array ;
+		data_type : bit ;
+		bit_width : 6;
+		bit_from : 5;
+		bit_to : 0 ;
+		downto : true ;
+	}
+cell(nangate45_120x64_1P_bit) {
+	area		 : 1000;
+	dont_use	 : TRUE;
+	dont_touch	 : TRUE;
+        interface_timing : TRUE;
+	memory() {
+		type : ram;
+		address_width : 6;
+		word_width : 120;
+	}
+        bus(rd_out)   {
+                bus_type : nangate45_120x64_1P_bit_DATA;
+		direction : output;
+		max_capacitance : 0.2;
+                memory_read() {
+			address : addr_in;
+		}
+                timing() {
+                        related_pin :   "clk" ;
+                        timing_type : rising_edge;
+                        timing_sense : non_unate;
+                        cell_rise(nangate45_120x64_1P_bit_mem_out_delay_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.001, 0.360");
+                        values ( \
+                          "0.800, 1.200", \
+                          "0.900, 1.300" \
+                        )
+                        }
+                        rise_transition(nangate45_120x64_1P_bit_mem_out_slew_template) {
+                        index_1 ("0.001, 0.360");
+                        values ("0.07, 0.95")
+                        }
+                        cell_fall(nangate45_120x64_1P_bit_mem_out_delay_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.001, 0.360");
+                        values ( \
+                          "0.800, 1.200", \
+                          "0.900, 1.300" \
+                        )
+                        }
+                        fall_transition(nangate45_120x64_1P_bit_mem_out_slew_template) {
+                        index_1 ("0.001, 0.360");
+                        values ("0.07, 0.95")
+                        }
+                }
+     }
+        pin(clk)   {
+		direction : input;
+		capacitance : 0.875;
+                clock : true;
+                max_transition : 0.03;
+                min_pulse_width_high : 0.10 ;
+                min_pulse_width_low  : 0.34 ;
+                min_period           : 1.0 ;
+
+                minimum_period(){
+                  constraint : 1.0 ;
+                  when : "1";
+                  sdf_cond : "1";
+                }
+
+                internal_power(){
+                        rise_power(nangate45_120x64_1P_bit_energy_template_clkslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                        fall_power(nangate45_120x64_1P_bit_energy_template_clkslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                }
+        }
+
+        pin(we_in){
+                direction : input;
+                capacitance : 0.35;
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : setup_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1, 1", \
+                          "1, 1" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1, 1", \
+                          "1, 1" \
+                        )
+                        }
+                } 
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : hold_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "0.000, 0.000", \
+                          "0.000, 0.000" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "0.000, 0.000", \
+                          "0.000, 0.000" \
+                        )
+                        }
+               }
+                internal_power(){
+                        rise_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                        fall_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                }
+        }
+        pin(ce_in){
+                direction : input;
+                capacitance : 0.35;
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : setup_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1, 1", \
+                          "1, 1" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1, 1", \
+                          "1, 1" \
+                        )
+                        }
+                } 
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : hold_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "0.000, 0.000", \
+                          "0.000, 0.000" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "0.000, 0.000", \
+                          "0.000, 0.000" \
+                        )
+                        }
+               }
+                internal_power(){
+                        rise_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                        fall_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                }
+        }
+        bus(addr_in)   {
+                bus_type : nangate45_120x64_1P_bit_ADDRESS;
+                direction : input;
+                capacitance : 0.35;
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : setup_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+                } 
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : hold_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+               }
+                internal_power(){
+                        rise_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                        fall_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                }
+        }
+        bus(wd_in)   {
+                bus_type : nangate45_120x64_1P_bit_DATA;
+                memory_write() {
+                        address : addr_in;
+                        clocked_on : "clk";
+                }
+                direction : input;
+                capacitance : 0.35;
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : setup_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+                } 
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : hold_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+               }
+                internal_power(){
+                        when : "(! \
+                                 (we_in) \
+                                )";
+                        rise_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                        fall_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                }
+                internal_power(){
+                        when : " \
+                                 (we_in) \
+                               ";
+                        rise_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                        fall_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                }
+        }
+        bus(w_mask_in)   {
+                bus_type : nangate45_120x64_1P_bit_DATA;
+                memory_write() {
+                        address : addr_in;
+                        clocked_on : "clk";
+                }
+                direction : input;
+                capacitance : 0.35;
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : setup_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+                } 
+                timing() {
+                        related_pin     : clk;
+                        timing_type     : hold_rising ;
+                        rise_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+                        fall_constraint(nangate45_120x64_1P_bit_constraint_template) {
+                        index_1 ("0.02, 0.6");
+                        index_2 ("0.02, 0.6");
+                        values ( \
+                          "1,1", \
+                          "1,1" \
+                        )
+                        }
+               }
+                internal_power(){
+                        when : "(! \
+                                 (we_in) \
+                                )";
+                        rise_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                        fall_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                }
+                internal_power(){
+                        when : " \
+                                 (we_in) \
+                               ";
+                        rise_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                        fall_power(nangate45_120x64_1P_bit_energy_template_sigslew) {
+                        index_1 ("0.02, 0.6");
+                        values ("1, 1")
+                        }
+                }
+        }
+
+        cell_leakage_power : 1;
+}
+}

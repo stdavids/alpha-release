@@ -1,0 +1,42 @@
+ ######################################
+ #      OpenROAD IO placement tool    #
+ #                                    #
+ # Authors:                           #
+ #    Vitor Bandeira (UFRGS)          #
+ #    Mateus Fogaça (UFRGS)           #
+ #    Eder Matheus Monteiro (UFRGS)   #
+ #    Isadora Oliveira (UFRGS)        #
+ #                                    #
+ #  Advisor:                          #
+ #    Ricardo Reis (UFRGS)            #
+ ######################################
+
+Current time: Fri Jul 19 15:33:36 2019
+
+Options: 
+Input LEF file:     ./tech/bp_fe_top/merged.lef
+Input DEF file:     ./results/bp_fe_top/init.def
+Output DEF file:    results/bp_fe_top/init_io.def
+Horizontal metal layer: Metal5
+Vertical metal layer: Metal6
+Get IO nets HPWL: 1
+Number of slots per section: -1
+Increase factor of slots per section: -1
+Percentage of usage for each section: -1
+Increase factor of usage for each section: -1
+Force pin spread: 1
+Blockage area file: 
+Random mode: 0
+
+Verifying required data
+Tentative 0 to setup sections
+Slots Per Section     200
+Slots Increase Factor 0.01
+Usage Per Section     0.8
+Usage Increase Factor 0.01
+Force Pin Spread      1
+
+***HPWL before IOPlacement: 0***
+WARNING: cells are not placed, running random
+***HPWL after IOPlacement: 0***
+File results/bp_fe_top/init_io.def created

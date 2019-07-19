@@ -1,0 +1,8 @@
+Loading './tech/bp_fe_top/merged.lef' ..
+Configuring placement engine
+Loading './results/bp_fe_top/init_pdn.def' ..
+Running physical cell placement
+Placement completed
+Writing resulted physical cell placement into 'results/bp_fe_top/floorplan.def'
+Updating rows defintions
+Done

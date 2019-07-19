@@ -1,0 +1,187 @@
+[31mThu Jul 18 21:42:12 UTC 2019
+               ______   ___   _ _____ _   _ _____ ____ ___ ____  
+              / ___\ \ / / \ | |_   _| | | | ____/ ___|_ _/ ___| 
+              \___ \\ V /|  \| | | | | |_| |  _| \___ \| |\___ \ 
+               ___) || | | |\  | | | |  _  | |___ ___) | | ___) |
+              |____/ |_| |_| \_| |_| |_| |_|_____|____/___|____/ 
+                                                                 
+[0mmkdir -p ./results/bp_fe_top ./logs/bp_fe_top ./reports/bp_fe_top
+yosys -l ./logs/bp_fe_top/synth.log -c scripts/synth.tcl
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2018  Clifford Wolf <clifford@clifford.at>           |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.8+498 (git sha1 ae85f4a, gcc 7.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: ./designs/src/bp_fe_top/design.v
+Parsing Verilog input from `./designs/src/bp_fe_top/design.v' to AST representation.
+Generating RTLIL representation for module `\bsg_dff_reset_en_width_p27'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_synth_width_p49_els_p64_read_write_same_addr_p0_harden_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_width_p49_els_p64_read_write_same_addr_p0'.
+Generating RTLIL representation for module `\bsg_mem_1rw_sync_width_p49_els_p64'.
+Generating RTLIL representation for module `\bp_fe_btb_vaddr_width_p39_btb_tag_width_p10_btb_idx_width_p6'.
+Generating RTLIL representation for module `\instr_scan_vaddr_width_p39_instr_width_p32'.
+Generating RTLIL representation for module `\bp_fe_pc_gen_02'.
+Generating RTLIL representation for module `\bsg_mem_1rw_sync_mask_write_bit_width_p232_els_p64'.
+Generating RTLIL representation for module `\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64'.
+Generating RTLIL representation for module `\bsg_scan_width_p8_or_p1_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_width_p1'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_width_p2'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_width_p4'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_width_p8_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_priority_encode_width_p8_lo_to_hi_p1'.
+Generating RTLIL representation for module `\bsg_mem_1rw_sync_mask_write_bit_width_p7_els_p64'.
+Generating RTLIL representation for module `\bsg_scan_7_1_1'.
+Generating RTLIL representation for module `\bsg_priority_encode_one_hot_out_7_1'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_width_p8'.
+Generating RTLIL representation for module `\bsg_encode_one_hot_7_1'.
+Generating RTLIL representation for module `\bsg_priority_encode_7_1'.
+Generating RTLIL representation for module `\bsg_lru_pseudo_tree_encode_ways_p8'.
+Generating RTLIL representation for module `\bp_fe_lce_req_02'.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5597.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5665.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5667.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5669.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5671.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5673.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5675.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5677.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5679.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5681.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5683.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5685.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5687.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5689.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5691.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5693.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5695.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5697.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5699.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5701.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5703.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5705.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5707.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5709.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5711.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5713.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5715.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5717.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5719.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5721.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5723.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5725.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5727.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5729.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5731.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5733.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5735.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5737.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5738.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5739.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5740.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:5829.
+Generating RTLIL representation for module `\bsg_mem_1r1w_synth_width_p53_els_p2_read_write_same_addr_p0_harden_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_width_p53_els_p2_read_write_same_addr_p0'.
+Generating RTLIL representation for module `\bsg_two_fifo_width_p53'.
+Generating RTLIL representation for module `\bp_fe_lce_cmd_02'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_synth_width_p518_els_p2_read_write_same_addr_p0_harden_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_width_p518_els_p2_read_write_same_addr_p0'.
+Generating RTLIL representation for module `\bsg_two_fifo_width_p518'.
+Generating RTLIL representation for module `\bp_fe_lce_data_cmd_02'.
+Generating RTLIL representation for module `\bp_fe_lce_02'.
+Generating RTLIL representation for module `\bsg_mux_width_p64_els_p8'.
+Generating RTLIL representation for module `\bsg_mux_width_p64_els_p2'.
+Generating RTLIL representation for module `\bsg_swap_width_p64'.
+Generating RTLIL representation for module `\bsg_swap_width_p128'.
+Generating RTLIL representation for module `\bsg_swap_width_p256'.
+Generating RTLIL representation for module `\bsg_mux_butterfly_width_p64_els_p8'.
+Generating RTLIL representation for module `\bsg_decode_num_out_p8'.
+Generating RTLIL representation for module `\bsg_lru_pseudo_tree_decode_ways_p8'.
+Generating RTLIL representation for module `\bp_fe_icache_02'.
+Warning: reg '\icache_pc_gen_data_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/design.v:11038.
+Generating RTLIL representation for module `\bsg_dff_reset_width_p1'.
+Generating RTLIL representation for module `\bsg_dff_reset_width_p27'.
+Generating RTLIL representation for module `\bp_be_dtlb_replacement_ways_p8'.
+Generating RTLIL representation for module `\bsg_cam_1r1w_els_p8_width_p27_multiple_entries_p0_find_empty_entry_p1'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_synth_width_p33_els_p8_read_write_same_addr_p0_harden_p0'.
+Generating RTLIL representation for module `\bsg_mem_1r1w_width_p33_els_p8_read_write_same_addr_p0'.
+Generating RTLIL representation for module `\bsg_mem_1rw_sync_width_p33_els_p8'.
+Generating RTLIL representation for module `\bp_be_dtlb_02'.
+Generating RTLIL representation for module `\bp_fe_top'.
+Successfully finished Verilog frontend.
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+Entering generate mode.
+Celltype: tsmc65lp_*
+Port declaration: output Q
+Port declaration: output QA
+Port declaration: output QB
+Port declaration: input CLK
+Port declaration: input CLKA
+Port declaration: input CLKB
+Port declaration: input CEN
+Port declaration: input CENA
+Port declaration: input CENB
+Port declaration: input GWEN
+Port declaration: input A
+Port declaration: input AA
+Port declaration: input AB
+Port declaration: input D
+Port declaration: input DB
+Port declaration: input WEN
+Port declaration: input WENA
+Port declaration: input WENB
+Port declaration: input STOV
+Port declaration: input EMA
+Port declaration: input EMAA
+Port declaration: input EMAB
+Port declaration: input EMAW
+Port declaration: input EMAS
+Port declaration: input RET1N
+Port declaration: input SE
+Port declaration: input TEN
+Port declaration: output CENY
+Port declaration: output WENY
+Port declaration: output AY
+Port declaration: output SO
+Port declaration: input SI
+Port declaration: input TCEN
+Port declaration: input TWEN
+Port declaration: input TA
+Port declaration: input TD
+Port declaration: input DFTRAMBYP
+Port declaration: input PGEN
+Port declaration: input KEN
+Port declaration: input BEN
+Port declaration: input TQ
+
+3. Executing SYNTH pass.
+
+3.1. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1.1. Analyzing design hierarchy..
+ERROR: Module `\hard_mem_1rw_bit_mask_d64_w116_wrapper' referenced in module `\bsg_mem_1rw_sync_mask_write_bit_width_p232_els_p64' in cell `\macro_mem1' is not part of the design.
+make: *** [results/bp_fe_top/synth.yosys.v] Error 1

@@ -1,0 +1,40 @@
+Startpoint: _61221_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: icache.tag_mem.macro_mem0
+          (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _61221_/CK (DFF_X1)
+   0.15    0.15 ^ _61221_/Q (DFF_X1)
+   0.02    0.17 v _33089_/ZN (INV_X1)
+   0.02    0.19 ^ _33090_/ZN (NAND2_X1)
+   0.06    0.25 v _33092_/ZN (NAND2_X1)
+   0.12    0.38 ^ _33369_/ZN (INV_X1)
+   0.06    0.44 v _33386_/ZN (NOR2_X1)
+   0.12    0.57 v _33498_/ZN (AND2_X2)
+   0.08    0.65 v _33499_/ZN (OR2_X1)
+   0.07    0.72 v _33500_/Z (BUF_X4)
+   0.05    0.77 v _33512_/ZN (AND2_X2)
+   8.17    8.94 ^ _33513_/ZN (NOR3_X1)
+   5.11   14.05 v _33514_/ZN (NOR4_X1)
+ 282.31  296.36 ^ _33515_/ZN (NOR2_X1)
+   0.87  297.23 ^ icache.tag_mem.macro_mem0/w_mask_in[0] (nangate45_120x64_1P_bit)
+         297.23   data arrival time
+
+   5.40    5.40   clock CLK (rise edge)
+   0.00    5.40   clock network delay (ideal)
+   0.00    5.40   clock reconvergence pessimism
+           5.40 ^ icache.tag_mem.macro_mem0/clk (nangate45_120x64_1P_bit)
+  -1.00    4.40   library setup time
+           4.40   data required time
+---------------------------------------------------------
+           4.40   data required time
+        -297.23   data arrival time
+---------------------------------------------------------
+        -292.83   slack (VIOLATED)
+
+

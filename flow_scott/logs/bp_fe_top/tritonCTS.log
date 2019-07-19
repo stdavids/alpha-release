@@ -1,0 +1,42 @@
+-configFilePath = objects/bp_fe_top/tritonCts.config
+-scriptsPath = /opt/openroad/OpenROAD-2019-07-17_07-34/TritonCTS/scripts
+-techFilesPath = ./platforms/nangate45/tritonCTS
+-lefDefParserPath = /opt/openroad/OpenROAD-2019-07-17_07-34/TritonCTS/bin/lefdef2cts
+-executablePath = /opt/openroad/OpenROAD-2019-07-17_07-34/TritonCTS/bin/genHtree
+-legalizerPath = /opt/openroad/OpenROAD-2019-07-17_07-34/bin/opendp
+-outputPath = ./results/bp_fe_top/run
++------------------------+
+|    Program options     |
++------------------------+
+Config file: /home/stdavids/alpha-release/flow5/objects/bp_fe_top/tritonCts.config
+Executable: /opt/openroad/OpenROAD-2019-07-17_07-34/TritonCTS/bin/genHtree
+Lef/Def parser: /opt/openroad/OpenROAD-2019-07-17_07-34/TritonCTS/bin/lefdef2cts
+Scripts path: /opt/openroad/OpenROAD-2019-07-17_07-34/TritonCTS/scripts
+Legalizer binary: /opt/openroad/OpenROAD-2019-07-17_07-34/bin/opendp
+Output path: /home/stdavids/alpha-release/flow5/results/bp_fe_top/run
++------------------------+
+|      Configuration     |
++------------------------+
+path : /home/stdavids/alpha-release/flow5/results/bp_fe_top/place.def
+verilog : /home/stdavids/alpha-release/flow5/results/bp_fe_top/place.v
+design : bp_fe_top
+target_skew : 50
+width : 950.0
+height : 950.0
+lef : /home/stdavids/alpha-release/flow5/tech/bp_fe_top/merged_padded.lef
+tech : 45
+ck_port : clk_i
+db_units : 2000
+root_buff : BUF_X4
+tolerance : 1000
+/opt/openroad/OpenROAD-2019-07-17_07-34/TritonCTS/bin/lefdef2cts -lef /home/stdavids/alpha-release/flow5/tech/bp_fe_top/merged_padded.lef -def /home/stdavids/alpha-release/flow5/results/bp_fe_top/place.def -cpin CK -cts sinks.txt -blk blks.txt
+
+Running GH-tree (should take a while...)
+/opt/openroad/OpenROAD-2019-07-17_07-34/TritonCTS/bin/genHtree -n 64 -s 50 -tech 45 -compute_sink_region_mode -t 1000
+cp: cannot stat `sol_0.txt': No such file or directory
+    while executing
+"exec cp sol_0.txt sol.txt"
+    (procedure "runGHtree" line 19)
+    invoked from within
+"runGHtree"
+    (file "/opt/openroad/OpenROAD-2019-07-17_07-34/TritonCTS/runTritonCTS.tcl" line 380)

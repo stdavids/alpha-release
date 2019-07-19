@@ -1,0 +1,501 @@
+-0.000102376 2 d 1 w 2 h 2 n 4 t 113 bufs 134  sinks 0 0  chk 2 2 20 20 16.2904
+-0.000102376 0 d 1 w 2 h 4 n 2 t 114 bufs 168  sinks 0  chk 0 2 40 20 40
+-0.000102376 0 d 1 w 2 h 6 n 2 t 115 bufs 178  sinks 0  chk 0 2 50 20 50
+-0.000102376 2 d 1 w 2 h 6 n 6 t 116 bufs 168  sinks 0 0 0  chk 2 2 55 20 52.5808
+-0.000102376 0 d 1 w 2 h 8 n 2 t 117 bufs 198  sinks 0  chk 0 2 70 20 70
+-0.000102376 2 d 1 w 2 h 8 n 4 t 118 bufs 168  sinks 0 0  chk 2 2 65 20 65.1615
+-0.000102376 2 d 1 w 2 h 8 n 6 t 119 bufs 178  sinks 0 0 0  chk 2 2 70 20 66.7744
+-0.000102376 2 d 1 w 2 h 8 n 8 t 120 bufs 168  sinks 0 0 0 0  chk 2 2 65 20 65.1615
+-0.000102376 2 d 1 w 2 h 8 n 10 t 121 bufs 178  sinks 0 0 0 0 0  chk 2 2 70 20 70.1292
+-0.000102376 0 d 1 w 2 h 10 n 2 t 122 bufs 208  sinks 0  chk 0 2 80 20 80
+-0.000102376 2 d 1 w 2 h 10 n 4 t 123 bufs 178  sinks 0 0  chk 2 2 85 20 81.4519
+-0.000102376 2 d 1 w 2 h 10 n 6 t 124 bufs 188  sinks 0 0 0  chk 2 2 80 20 80.9679
+-0.000102376 2 d 1 w 2 h 10 n 8 t 125 bufs 178  sinks 0 0 0 0  chk 2 2 85 20 81.4519
+-0.000102376 2 d 1 w 2 h 10 n 10 t 126 bufs 178  sinks 0 0 0 0 0  chk 2 2 75 20 75.1615
+-0.000102376 0 d 1 w 2 h 12 n 2 t 127 bufs 218  sinks 0  chk 0 1 90 20 90
+-0.000102376 2 d 1 w 2 h 12 n 4 t 128 bufs 178  sinks 0 0  chk 2 2 90 20 87.7423
+-0.000102376 2 d 1 w 2 h 12 n 6 t 129 bufs 198  sinks 0 0 0  chk 2 2 95 20 95.1615
+-0.000102376 2 d 1 w 2 h 12 n 8 t 130 bufs 178  sinks 0 0 0 0  chk 2 2 90 20 87.7423
+-0.000102376 2 d 1 w 2 h 12 n 10 t 131 bufs 188  sinks 0 0 0 0 0  chk 2 2 90 20 90.1938
+-0.000102376 0 d 1 w 2 h 14 n 2 t 132 bufs 228  sinks 0  chk 0 1 100 20 100
+-0.000102376 2 d 1 w 2 h 14 n 4 t 133 bufs 188  sinks 0 0  chk 2 2 105 20 104.033
+-0.000102376 2 d 1 w 2 h 14 n 6 t 134 bufs 198  sinks 0 0 0  chk 2 2 100 20 99.3551
+-0.000102376 2 d 1 w 2 h 14 n 8 t 135 bufs 188  sinks 0 0 0 0  chk 2 2 105 20 104.033
+-0.000102376 2 d 1 w 2 h 14 n 10 t 136 bufs 198  sinks 0 0 0 0 0  chk 2 2 105 20 105.226
+-0.000102376 0 d 1 w 2 h 16 n 2 t 137 bufs 248  sinks 0  chk 0 1 120 20 120
+-0.000102376 2 d 1 w 2 h 16 n 4 t 138 bufs 198  sinks 0 0  chk 2 2 120 20 120.323
+-0.000102376 2 d 1 w 2 h 16 n 6 t 139 bufs 208  sinks 0 0 0  chk 2 2 115 20 113.549
+-0.000102376 2 d 1 w 2 h 16 n 8 t 140 bufs 198  sinks 0 0 0 0  chk 2 2 120 20 120.323
+-0.000102376 2 d 1 w 2 h 16 n 10 t 141 bufs 208  sinks 0 0 0 0 0  chk 2 2 120 20 120.258
+-0.000102376 0 d 1 w 2 h 18 n 2 t 142 bufs 258  sinks 0  chk 0 1 130 20 130
+-0.000102376 2 d 1 w 2 h 18 n 4 t 143 bufs 198  sinks 0 0  chk 2 2 130 20 126.613
+-0.000102376 1 d 1 w 2 h 18 n 6 t 144 bufs 218  sinks 0 0 0  chk 1 1 130 20 127.742
+-0.000102376 2 d 1 w 2 h 18 n 8 t 145 bufs 198  sinks 0 0 0 0  chk 2 2 130 20 126.613
+-0.000102376 2 d 1 w 2 h 18 n 10 t 146 bufs 208  sinks 0 0 0 0 0  chk 2 2 125 20 125.291
+-0.000102376 0 d 1 w 2 h 20 n 2 t 147 bufs 268  sinks 0  chk 0 1 140 20 140
+-0.000102376 2 d 1 w 2 h 20 n 4 t 148 bufs 208  sinks 0 0  chk 2 2 145 20 142.904
+-0.000102376 1 d 1 w 2 h 20 n 6 t 149 bufs 228  sinks 0 0 0  chk 1 1 145 20 141.936
+-0.000102376 2 d 1 w 2 h 20 n 8 t 150 bufs 208  sinks 0 0 0 0  chk 2 2 145 20 142.904
+-0.000102376 1 d 1 w 2 h 20 n 10 t 151 bufs 218  sinks 0 0 0 0 0  chk 1 1 140 20 140.323
+-0.000102376 0 d 1 w 4 h 2 n 2 t 152 bufs 168  sinks 0  chk 0 2 40 20 40
+-0.000102376 0 d 1 w 4 h 4 n 2 t 153 bufs 198  sinks 0  chk 0 2 70 20 70
+0.0762068 2 d 1 w 4 h 4 n 4 t 154 bufs 199 168  sinks 0 0  chk 2 120 10 10 8
+0.0751884 2 d 1 w 4 h 4 n 4 t 155 bufs 200 168  sinks 0 0  chk 2 130 10 35 8
+0.0750292 2 d 1 w 4 h 4 n 4 t 156 bufs 201 168  sinks 0 0  chk 2 138 10 55 8
+0.170426 2 d 1 w 4 h 4 n 4 t 157 bufs 202 168  sinks 0 0  chk 2 176 20 10 20
+0.169015 2 d 1 w 4 h 4 n 4 t 158 bufs 203 168  sinks 0 0  chk 2 186 20 35 20
+0.168742 2 d 1 w 4 h 4 n 4 t 159 bufs 204 168  sinks 0 0  chk 2 194 20 55 20
+0.293771 2 d 1 w 4 h 4 n 4 t 160 bufs 205 168  sinks 0 0  chk 2 268 30 10 30
+0.290286 2 d 1 w 4 h 4 n 4 t 161 bufs 206 168  sinks 0 0  chk 2 277 30 35 30
+0.290018 2 d 1 w 4 h 4 n 4 t 162 bufs 207 168  sinks 0 0  chk 2 284 30 55 30
+-0.000204751 2 d 1 w 4 h 4 n 4 t 163 bufs 449 168  sinks 0 0  chk 2 4 80 25 80
+-0.000102376 0 d 1 w 4 h 6 n 2 t 164 bufs 218  sinks 0  chk 0 1 90 20 90
+0.0762321 2 d 1 w 4 h 6 n 4 t 165 bufs 219 178  sinks 0 0  chk 2 120 10 10 8
+0.0752136 2 d 1 w 4 h 6 n 4 t 166 bufs 220 178  sinks 0 0  chk 2 130 10 35 8
+0.0750543 2 d 1 w 4 h 6 n 4 t 167 bufs 221 178  sinks 0 0  chk 2 138 10 55 8
+0.170451 2 d 1 w 4 h 6 n 4 t 168 bufs 222 178  sinks 0 0  chk 2 176 20 10 20
+0.16904 2 d 1 w 4 h 6 n 4 t 169 bufs 223 178  sinks 0 0  chk 2 186 20 35 20
+0.168767 2 d 1 w 4 h 6 n 4 t 170 bufs 224 178  sinks 0 0  chk 2 194 20 55 20
+0.293796 2 d 1 w 4 h 6 n 4 t 171 bufs 225 178  sinks 0 0  chk 2 268 30 10 30
+0.290311 2 d 1 w 4 h 6 n 4 t 172 bufs 226 178  sinks 0 0  chk 2 277 30 35 30
+0.290042 2 d 1 w 4 h 6 n 4 t 173 bufs 227 178  sinks 0 0  chk 2 284 30 55 30
+-0.000204751 2 d 1 w 4 h 6 n 4 t 174 bufs 451 178  sinks 0 0  chk 2 3 100 25 100
+-0.000204751 4 d 1 w 4 h 6 n 6 t 175 bufs 449 168  sinks 0 0 0  chk 4 4 105 25 105.162
+-0.000102376 0 d 1 w 4 h 8 n 2 t 176 bufs 248  sinks 0  chk 0 1 120 20 120
+0.0762826 2 d 1 w 4 h 8 n 4 t 177 bufs 259 198  sinks 0 0  chk 2 120 10 10 8
+0.075264 2 d 1 w 4 h 8 n 4 t 178 bufs 260 198  sinks 0 0  chk 2 130 10 35 8
+0.0751043 2 d 1 w 4 h 8 n 4 t 179 bufs 261 198  sinks 0 0  chk 2 138 10 55 8
+0.170502 2 d 1 w 4 h 8 n 4 t 180 bufs 262 198  sinks 0 0  chk 2 176 20 10 20
+0.16909 2 d 1 w 4 h 8 n 4 t 181 bufs 263 198  sinks 0 0  chk 2 186 20 35 20
+0.168816 2 d 1 w 4 h 8 n 4 t 182 bufs 264 198  sinks 0 0  chk 2 194 20 55 20
+0.293846 2 d 1 w 4 h 8 n 4 t 183 bufs 265 198  sinks 0 0  chk 2 268 30 10 30
+0.29036 2 d 1 w 4 h 8 n 4 t 184 bufs 266 198  sinks 0 0  chk 2 277 30 35 30
+0.290091 2 d 1 w 4 h 8 n 4 t 185 bufs 267 198  sinks 0 0  chk 2 284 30 55 30
+-0.000204751 2 d 1 w 4 h 8 n 4 t 186 bufs 455 198  sinks 0 0  chk 2 3 140 25 140
+-0.000204751 3 d 1 w 4 h 8 n 6 t 187 bufs 451 178  sinks 0 0 0  chk 3 3 135 25 133.549
+-0.000204751 3 d 1 w 4 h 8 n 8 t 188 bufs 452 168  sinks 0 0 0 0  chk 3 3 135 25 135.162
+-0.000204751 3 d 1 w 4 h 8 n 10 t 189 bufs 453 168  sinks 0 0 0 0 0  chk 3 3 140 25 140.129
+-0.000102376 0 d 1 w 4 h 10 n 2 t 190 bufs 268  sinks 0  chk 0 1 140 20 140
+0.0763079 2 d 1 w 4 h 10 n 4 t 191 bufs 279 208  sinks 0 0  chk 2 120 10 10 8
+0.0752892 2 d 1 w 4 h 10 n 4 t 192 bufs 280 208  sinks 0 0  chk 2 130 10 35 8
+0.0751293 2 d 1 w 4 h 10 n 4 t 193 bufs 281 208  sinks 0 0  chk 2 138 10 55 8
+0.170527 2 d 1 w 4 h 10 n 4 t 194 bufs 282 208  sinks 0 0  chk 2 176 20 10 20
+0.169115 2 d 1 w 4 h 10 n 4 t 195 bufs 283 208  sinks 0 0  chk 2 186 20 35 20
+0.168841 2 d 1 w 4 h 10 n 4 t 196 bufs 284 208  sinks 0 0  chk 2 194 20 55 20
+0.293871 2 d 1 w 4 h 10 n 4 t 197 bufs 285 208  sinks 0 0  chk 2 268 30 10 30
+0.290384 2 d 1 w 4 h 10 n 4 t 198 bufs 286 208  sinks 0 0  chk 2 277 30 35 30
+0.290115 2 d 1 w 4 h 10 n 4 t 199 bufs 287 208  sinks 0 0  chk 2 284 30 55 30
+0.0763332 1 d 1 w 4 h 12 n 4 t 200 bufs 299 218  sinks 0 0  chk 1 119 10 10 8
+0.0753144 1 d 1 w 4 h 12 n 4 t 201 bufs 300 218  sinks 0 0  chk 1 129 10 35 8
+0.0751543 1 d 1 w 4 h 12 n 4 t 202 bufs 301 218  sinks 0 0  chk 1 137 10 55 8
+0.170552 1 d 1 w 4 h 12 n 4 t 203 bufs 302 218  sinks 0 0  chk 1 175 20 10 20
+0.16914 1 d 1 w 4 h 12 n 4 t 204 bufs 303 218  sinks 0 0  chk 1 185 20 35 20
+0.168865 1 d 1 w 4 h 12 n 4 t 205 bufs 304 218  sinks 0 0  chk 1 193 20 55 20
+0.293896 1 d 1 w 4 h 12 n 4 t 206 bufs 305 218  sinks 0 0  chk 1 267 30 10 30
+0.290409 1 d 1 w 4 h 12 n 4 t 207 bufs 306 218  sinks 0 0  chk 1 276 30 35 30
+0.29014 1 d 1 w 4 h 12 n 4 t 208 bufs 307 218  sinks 0 0  chk 1 283 30 55 30
+0.0763584 1 d 1 w 4 h 14 n 4 t 209 bufs 319 228  sinks 0 0  chk 1 119 10 10 8
+0.0753396 1 d 1 w 4 h 14 n 4 t 210 bufs 320 228  sinks 0 0  chk 1 129 10 35 8
+0.0751793 1 d 1 w 4 h 14 n 4 t 211 bufs 321 228  sinks 0 0  chk 1 137 10 55 8
+0.170577 1 d 1 w 4 h 14 n 4 t 212 bufs 322 228  sinks 0 0  chk 1 175 20 10 20
+0.169165 1 d 1 w 4 h 14 n 4 t 213 bufs 323 228  sinks 0 0  chk 1 185 20 35 20
+0.16889 1 d 1 w 4 h 14 n 4 t 214 bufs 324 228  sinks 0 0  chk 1 193 20 55 20
+0.293921 1 d 1 w 4 h 14 n 4 t 215 bufs 325 228  sinks 0 0  chk 1 267 30 10 30
+0.290433 1 d 1 w 4 h 14 n 4 t 216 bufs 326 228  sinks 0 0  chk 1 276 30 35 30
+0.290164 1 d 1 w 4 h 14 n 4 t 217 bufs 327 228  sinks 0 0  chk 1 283 30 55 30
+0.0764089 1 d 1 w 4 h 16 n 4 t 218 bufs 359 248  sinks 0 0  chk 1 119 10 10 8
+0.07539 1 d 1 w 4 h 16 n 4 t 219 bufs 360 248  sinks 0 0  chk 1 129 10 35 8
+0.0752293 1 d 1 w 4 h 16 n 4 t 220 bufs 361 248  sinks 0 0  chk 1 137 10 55 8
+0.170627 1 d 1 w 4 h 16 n 4 t 221 bufs 362 248  sinks 0 0  chk 1 175 20 10 20
+0.169215 1 d 1 w 4 h 16 n 4 t 222 bufs 363 248  sinks 0 0  chk 1 185 20 35 20
+0.168939 1 d 1 w 4 h 16 n 4 t 223 bufs 364 248  sinks 0 0  chk 1 193 20 55 20
+0.293971 1 d 1 w 4 h 16 n 4 t 224 bufs 365 248  sinks 0 0  chk 1 267 30 10 30
+0.290483 1 d 1 w 4 h 16 n 4 t 225 bufs 366 248  sinks 0 0  chk 1 276 30 35 30
+0.290213 1 d 1 w 4 h 16 n 4 t 226 bufs 367 248  sinks 0 0  chk 1 283 30 55 30
+0.0764342 1 d 1 w 4 h 18 n 4 t 1 bufs 379 258  sinks 0 0  chk 1 119 10 10 8
+0.0754152 1 d 1 w 4 h 18 n 4 t 2 bufs 380 258  sinks 0 0  chk 1 129 10 35 8
+0.0752544 1 d 1 w 4 h 18 n 4 t 3 bufs 381 258  sinks 0 0  chk 1 137 10 55 8
+0.170652 1 d 1 w 4 h 18 n 4 t 4 bufs 382 258  sinks 0 0  chk 1 175 20 10 20
+0.16924 1 d 1 w 4 h 18 n 4 t 5 bufs 383 258  sinks 0 0  chk 1 185 20 35 20
+0.168964 1 d 1 w 4 h 18 n 4 t 6 bufs 384 258  sinks 0 0  chk 1 193 20 55 20
+0.293996 1 d 1 w 4 h 18 n 4 t 7 bufs 385 258  sinks 0 0  chk 1 267 30 10 30
+0.290507 1 d 1 w 4 h 18 n 4 t 8 bufs 386 258  sinks 0 0  chk 1 276 30 35 30
+0.290237 1 d 1 w 4 h 18 n 4 t 9 bufs 387 258  sinks 0 0  chk 1 283 30 55 30
+0.0764595 1 d 1 w 4 h 20 n 4 t 10 bufs 399 268  sinks 0 0  chk 1 119 10 10 8
+0.0754404 1 d 1 w 4 h 20 n 4 t 11 bufs 400 268  sinks 0 0  chk 1 129 10 35 8
+0.0752794 1 d 1 w 4 h 20 n 4 t 12 bufs 401 268  sinks 0 0  chk 1 137 10 55 8
+0.170678 1 d 1 w 4 h 20 n 4 t 13 bufs 402 268  sinks 0 0  chk 1 175 20 10 20
+0.169264 1 d 1 w 4 h 20 n 4 t 14 bufs 403 268  sinks 0 0  chk 1 185 20 35 20
+0.168988 1 d 1 w 4 h 20 n 4 t 15 bufs 404 268  sinks 0 0  chk 1 193 20 55 20
+0.294021 1 d 1 w 4 h 20 n 4 t 16 bufs 405 268  sinks 0 0  chk 1 267 30 10 30
+0.290532 1 d 1 w 4 h 20 n 4 t 17 bufs 406 268  sinks 0 0  chk 1 276 30 35 30
+0.290262 1 d 1 w 4 h 20 n 4 t 18 bufs 407 268  sinks 0 0  chk 1 283 30 55 30
+0.0764847 1 d 1 w 4 h 22 n 4 t 19 bufs 419 278  sinks 0 0  chk 1 119 10 10 8
+0.0754656 1 d 1 w 4 h 22 n 4 t 20 bufs 420 278  sinks 0 0  chk 1 129 10 35 8
+0.0753044 1 d 1 w 4 h 22 n 4 t 21 bufs 421 278  sinks 0 0  chk 1 137 10 55 8
+0.170703 1 d 1 w 4 h 22 n 4 t 22 bufs 422 278  sinks 0 0  chk 1 175 20 10 20
+0.169289 1 d 1 w 4 h 22 n 4 t 23 bufs 423 278  sinks 0 0  chk 1 185 20 35 20
+0.169013 1 d 1 w 4 h 22 n 4 t 24 bufs 424 278  sinks 0 0  chk 1 193 20 55 20
+0.294046 1 d 1 w 4 h 22 n 4 t 25 bufs 425 278  sinks 0 0  chk 1 267 30 10 30
+0.290556 1 d 1 w 4 h 22 n 4 t 26 bufs 426 278  sinks 0 0  chk 1 276 30 35 30
+0.290286 1 d 1 w 4 h 22 n 4 t 27 bufs 427 278  sinks 0 0  chk 1 283 30 55 30
+-9.14038e-05 0 d 1 w 6 h 2 n 2 t 80 bufs 889  sinks 0  chk 0 4 50 20 50
+-9.14038e-05 0 d 1 w 6 h 4 n 2 t 227 bufs 929  sinks 0  chk 0 3 90 20 90
+0.0762431 4 d 1 w 6 h 4 n 4 t 228 bufs 219 889  sinks 0 0  chk 4 122 10 10 8
+0.0752245 4 d 1 w 6 h 4 n 4 t 229 bufs 220 889  sinks 0 0  chk 4 132 10 35 8
+0.0750652 4 d 1 w 6 h 4 n 4 t 230 bufs 221 889  sinks 0 0  chk 4 140 10 55 8
+0.170462 4 d 1 w 6 h 4 n 4 t 231 bufs 222 889  sinks 0 0  chk 4 178 20 10 20
+0.169051 4 d 1 w 6 h 4 n 4 t 232 bufs 223 889  sinks 0 0  chk 4 188 20 35 20
+0.168778 4 d 1 w 6 h 4 n 4 t 233 bufs 224 889  sinks 0 0  chk 4 196 20 55 20
+0.293807 4 d 1 w 6 h 4 n 4 t 234 bufs 225 889  sinks 0 0  chk 4 270 30 10 30
+0.290321 4 d 1 w 6 h 4 n 4 t 235 bufs 226 889  sinks 0 0  chk 4 279 30 35 30
+0.290053 4 d 1 w 6 h 4 n 4 t 236 bufs 227 889  sinks 0 0  chk 4 286 30 55 30
+-0.00019378 4 d 1 w 6 h 4 n 4 t 237 bufs 451 889  sinks 0 0  chk 4 5 100 25 100
+-0.000307127 4 d 1 w 6 h 4 n 6 t 238 bufs 487 449 168  sinks 0 0 0  chk 4 5 120 30 120
+-9.14038e-05 0 d 1 w 6 h 6 n 2 t 239 bufs 969  sinks 0  chk 0 2 130 20 130
+0.0762936 3 d 1 w 6 h 6 n 4 t 240 bufs 259 909  sinks 0 0  chk 3 121 10 10 8
+0.0752749 3 d 1 w 6 h 6 n 4 t 241 bufs 260 909  sinks 0 0  chk 3 131 10 35 8
+0.0751152 3 d 1 w 6 h 6 n 4 t 242 bufs 261 909  sinks 0 0  chk 3 139 10 55 8
+0.170513 3 d 1 w 6 h 6 n 4 t 243 bufs 262 909  sinks 0 0  chk 3 177 20 10 20
+0.169101 3 d 1 w 6 h 6 n 4 t 244 bufs 263 909  sinks 0 0  chk 3 187 20 35 20
+0.168827 3 d 1 w 6 h 6 n 4 t 245 bufs 264 909  sinks 0 0  chk 3 195 20 55 20
+0.293857 3 d 1 w 6 h 6 n 4 t 246 bufs 265 909  sinks 0 0  chk 3 269 30 10 30
+0.290371 3 d 1 w 6 h 6 n 4 t 247 bufs 266 909  sinks 0 0  chk 3 278 30 35 30
+0.290102 3 d 1 w 6 h 6 n 4 t 248 bufs 267 909  sinks 0 0  chk 3 285 30 55 30
+-0.00019378 3 d 1 w 6 h 6 n 4 t 249 bufs 455 909  sinks 0 0  chk 3 4 140 25 140
+-0.000307127 3 d 1 w 6 h 6 n 6 t 250 bufs 490 451 178  sinks 0 0 0  chk 3 4 150 30 150
+-0.000307127 5 d 1 w 6 h 6 n 8 t 251 bufs 487 449 168  sinks 0 0 0 0  chk 5 5 150 30 148.307
+0.0763441 3 d 1 w 6 h 8 n 4 t 252 bufs 299 929  sinks 0 0  chk 3 121 10 10 8
+0.0753254 3 d 1 w 6 h 8 n 4 t 253 bufs 300 929  sinks 0 0  chk 3 131 10 35 8
+0.0751653 3 d 1 w 6 h 8 n 4 t 254 bufs 301 929  sinks 0 0  chk 3 139 10 55 8
+0.170563 3 d 1 w 6 h 8 n 4 t 255 bufs 302 929  sinks 0 0  chk 3 177 20 10 20
+0.169151 3 d 1 w 6 h 8 n 4 t 256 bufs 303 929  sinks 0 0  chk 3 187 20 35 20
+0.168876 3 d 1 w 6 h 8 n 4 t 257 bufs 304 929  sinks 0 0  chk 3 195 20 55 20
+0.293907 3 d 1 w 6 h 8 n 4 t 258 bufs 305 929  sinks 0 0  chk 3 269 30 10 30
+0.29042 3 d 1 w 6 h 8 n 4 t 259 bufs 306 929  sinks 0 0  chk 3 278 30 35 30
+0.290151 3 d 1 w 6 h 8 n 4 t 260 bufs 307 929  sinks 0 0  chk 3 285 30 55 30
+0.0763947 2 d 1 w 6 h 10 n 4 t 261 bufs 339 949  sinks 0 0  chk 2 120 10 10 8
+0.0753758 2 d 1 w 6 h 10 n 4 t 262 bufs 340 949  sinks 0 0  chk 2 130 10 35 8
+0.0752153 2 d 1 w 6 h 10 n 4 t 263 bufs 341 949  sinks 0 0  chk 2 138 10 55 8
+0.170613 2 d 1 w 6 h 10 n 4 t 264 bufs 342 949  sinks 0 0  chk 2 176 20 10 20
+0.169201 2 d 1 w 6 h 10 n 4 t 265 bufs 343 949  sinks 0 0  chk 2 186 20 35 20
+0.168926 2 d 1 w 6 h 10 n 4 t 266 bufs 344 949  sinks 0 0  chk 2 194 20 55 20
+0.293957 2 d 1 w 6 h 10 n 4 t 267 bufs 345 949  sinks 0 0  chk 2 268 30 10 30
+0.290469 2 d 1 w 6 h 10 n 4 t 268 bufs 346 949  sinks 0 0  chk 2 277 30 35 30
+0.290199 2 d 1 w 6 h 10 n 4 t 269 bufs 347 949  sinks 0 0  chk 2 284 30 55 30
+0.0764452 2 d 1 w 6 h 12 n 4 t 270 bufs 379 969  sinks 0 0  chk 2 120 10 10 8
+0.0754262 2 d 1 w 6 h 12 n 4 t 271 bufs 380 969  sinks 0 0  chk 2 130 10 35 8
+0.0752653 2 d 1 w 6 h 12 n 4 t 272 bufs 381 969  sinks 0 0  chk 2 138 10 55 8
+0.170663 2 d 1 w 6 h 12 n 4 t 273 bufs 382 969  sinks 0 0  chk 2 176 20 10 20
+0.16925 2 d 1 w 6 h 12 n 4 t 274 bufs 383 969  sinks 0 0  chk 2 186 20 35 20
+0.168975 2 d 1 w 6 h 12 n 4 t 275 bufs 384 969  sinks 0 0  chk 2 194 20 55 20
+0.294007 2 d 1 w 6 h 12 n 4 t 276 bufs 385 969  sinks 0 0  chk 2 268 30 10 30
+0.290518 2 d 1 w 6 h 12 n 4 t 277 bufs 386 969  sinks 0 0  chk 2 277 30 35 30
+0.290248 2 d 1 w 6 h 12 n 4 t 278 bufs 387 969  sinks 0 0  chk 2 284 30 55 30
+0.0764957 1 d 1 w 6 h 14 n 4 t 493 bufs 419 989  sinks 0 0  chk 1 119 10 10 8
+0.0754766 1 d 1 w 6 h 14 n 4 t 494 bufs 420 989  sinks 0 0  chk 1 129 10 35 8
+0.0753153 1 d 1 w 6 h 14 n 4 t 495 bufs 421 989  sinks 0 0  chk 1 137 10 55 8
+0.170714 1 d 1 w 6 h 14 n 4 t 496 bufs 422 989  sinks 0 0  chk 1 175 20 10 20
+0.1693 1 d 1 w 6 h 14 n 4 t 497 bufs 423 989  sinks 0 0  chk 1 185 20 35 20
+0.169024 1 d 1 w 6 h 14 n 4 t 498 bufs 424 989  sinks 0 0  chk 1 193 20 55 20
+0.294057 1 d 1 w 6 h 14 n 4 t 499 bufs 425 989  sinks 0 0  chk 1 267 30 10 30
+0.290567 1 d 1 w 6 h 14 n 4 t 500 bufs 426 989  sinks 0 0  chk 1 276 30 35 30
+0.290297 1 d 1 w 6 h 14 n 4 t 501 bufs 427 989  sinks 0 0  chk 1 283 30 55 30
+-9.14038e-05 0 d 1 w 8 h 2 n 2 t 81 bufs 909  sinks 0  chk 0 3 70 20 70
+0.0762178 4 d 1 w 8 h 2 n 4 t 82 bufs 199 879  sinks 0 0  chk 4 122 10 10 8
+0.0751994 4 d 1 w 8 h 2 n 4 t 83 bufs 200 879  sinks 0 0  chk 4 132 10 35 8
+0.0750402 4 d 1 w 8 h 2 n 4 t 84 bufs 201 879  sinks 0 0  chk 4 140 10 55 8
+0.170437 4 d 1 w 8 h 2 n 4 t 85 bufs 202 879  sinks 0 0  chk 4 178 20 10 20
+0.169026 4 d 1 w 8 h 2 n 4 t 86 bufs 203 879  sinks 0 0  chk 4 188 20 35 20
+0.168753 4 d 1 w 8 h 2 n 4 t 87 bufs 204 879  sinks 0 0  chk 4 196 20 55 20
+0.293782 4 d 1 w 8 h 2 n 4 t 88 bufs 205 879  sinks 0 0  chk 4 270 30 10 30
+0.290297 4 d 1 w 8 h 2 n 4 t 89 bufs 206 879  sinks 0 0  chk 4 279 30 35 30
+0.290029 4 d 1 w 8 h 2 n 4 t 90 bufs 207 879  sinks 0 0  chk 4 286 30 55 30
+-0.00019378 4 d 1 w 8 h 2 n 4 t 91 bufs 449 879  sinks 0 0  chk 4 6 80 25 80
+-9.14038e-05 0 d 1 w 8 h 4 n 2 t 92 bufs 959  sinks 0  chk 0 2 120 20 120
+0.0762936 3 d 1 w 8 h 4 n 4 t 93 bufs 259 909  sinks 0 0  chk 3 121 10 10 8
+0.0752749 3 d 1 w 8 h 4 n 4 t 94 bufs 260 909  sinks 0 0  chk 3 131 10 35 8
+0.0751152 3 d 1 w 8 h 4 n 4 t 95 bufs 261 909  sinks 0 0  chk 3 139 10 55 8
+0.170513 3 d 1 w 8 h 4 n 4 t 96 bufs 262 909  sinks 0 0  chk 3 177 20 10 20
+0.169101 3 d 1 w 8 h 4 n 4 t 97 bufs 263 909  sinks 0 0  chk 3 187 20 35 20
+0.168827 3 d 1 w 8 h 4 n 4 t 98 bufs 264 909  sinks 0 0  chk 3 195 20 55 20
+0.293857 3 d 1 w 8 h 4 n 4 t 99 bufs 265 909  sinks 0 0  chk 3 269 30 10 30
+0.290371 3 d 1 w 8 h 4 n 4 t 100 bufs 266 909  sinks 0 0  chk 3 278 30 35 30
+0.290102 3 d 1 w 8 h 4 n 4 t 101 bufs 267 909  sinks 0 0  chk 3 285 30 55 30
+-0.00019378 3 d 1 w 8 h 4 n 4 t 102 bufs 455 909  sinks 0 0  chk 3 4 140 25 140
+-0.000307127 3 d 1 w 8 h 4 n 6 t 103 bufs 490 451 178  sinks 0 0 0  chk 3 4 150 30 150
+0.0763441 3 d 1 w 8 h 6 n 4 t 104 bufs 299 929  sinks 0 0  chk 3 121 10 10 8
+0.0753254 3 d 1 w 8 h 6 n 4 t 105 bufs 300 929  sinks 0 0  chk 3 131 10 35 8
+0.0751653 3 d 1 w 8 h 6 n 4 t 106 bufs 301 929  sinks 0 0  chk 3 139 10 55 8
+0.170563 3 d 1 w 8 h 6 n 4 t 107 bufs 302 929  sinks 0 0  chk 3 177 20 10 20
+0.169151 3 d 1 w 8 h 6 n 4 t 108 bufs 303 929  sinks 0 0  chk 3 187 20 35 20
+0.168876 3 d 1 w 8 h 6 n 4 t 109 bufs 304 929  sinks 0 0  chk 3 195 20 55 20
+0.293907 3 d 1 w 8 h 6 n 4 t 110 bufs 305 929  sinks 0 0  chk 3 269 30 10 30
+0.29042 3 d 1 w 8 h 6 n 4 t 111 bufs 306 929  sinks 0 0  chk 3 278 30 35 30
+0.290151 3 d 1 w 8 h 6 n 4 t 112 bufs 307 929  sinks 0 0  chk 3 285 30 55 30
+0.0764199 2 d 1 w 8 h 8 n 4 t 279 bufs 359 959  sinks 0 0  chk 2 120 10 10 8
+0.075401 2 d 1 w 8 h 8 n 4 t 280 bufs 360 959  sinks 0 0  chk 2 130 10 35 8
+0.0752403 2 d 1 w 8 h 8 n 4 t 281 bufs 361 959  sinks 0 0  chk 2 138 10 55 8
+0.170638 2 d 1 w 8 h 8 n 4 t 282 bufs 362 959  sinks 0 0  chk 2 176 20 10 20
+0.169226 2 d 1 w 8 h 8 n 4 t 283 bufs 363 959  sinks 0 0  chk 2 186 20 35 20
+0.16895 2 d 1 w 8 h 8 n 4 t 284 bufs 364 959  sinks 0 0  chk 2 194 20 55 20
+0.293982 2 d 1 w 8 h 8 n 4 t 285 bufs 365 959  sinks 0 0  chk 2 268 30 10 30
+0.290494 2 d 1 w 8 h 8 n 4 t 286 bufs 366 959  sinks 0 0  chk 2 277 30 35 30
+0.290224 2 d 1 w 8 h 8 n 4 t 287 bufs 367 959  sinks 0 0  chk 2 284 30 55 30
+0.0764704 1 d 1 w 8 h 10 n 4 t 327 bufs 399 979  sinks 0 0  chk 1 119 10 10 8
+0.0754514 1 d 1 w 8 h 10 n 4 t 328 bufs 400 979  sinks 0 0  chk 1 129 10 35 8
+0.0752903 1 d 1 w 8 h 10 n 4 t 329 bufs 401 979  sinks 0 0  chk 1 137 10 55 8
+0.170689 1 d 1 w 8 h 10 n 4 t 330 bufs 402 979  sinks 0 0  chk 1 175 20 10 20
+0.169275 1 d 1 w 8 h 10 n 4 t 331 bufs 403 979  sinks 0 0  chk 1 185 20 35 20
+0.168999 1 d 1 w 8 h 10 n 4 t 332 bufs 404 979  sinks 0 0  chk 1 193 20 55 20
+0.294032 1 d 1 w 8 h 10 n 4 t 333 bufs 405 979  sinks 0 0  chk 1 267 30 10 30
+0.290543 1 d 1 w 8 h 10 n 4 t 334 bufs 406 979  sinks 0 0  chk 1 276 30 35 30
+0.290273 1 d 1 w 8 h 10 n 4 t 335 bufs 407 979  sinks 0 0  chk 1 283 30 55 30
+0.0759238 0 d 1 w 10 h 2 n 2 t 28 bufs 2530  sinks 0  chk 0 282 10 20 8
+0.169986 0 d 1 w 10 h 2 n 2 t 29 bufs 2533  sinks 0  chk 0 508 20 20 20
+0.292501 0 d 1 w 10 h 2 n 2 t 30 bufs 2536  sinks 0  chk 0 647 30 20 30
+-8.04336e-05 0 d 1 w 10 h 2 n 2 t 31 bufs 2539  sinks 0  chk 0 4 80 20 80
+0.076254 6 d 1 w 10 h 2 n 4 t 32 bufs 219 2509  sinks 0 0  chk 6 124 10 10 8
+0.0752355 6 d 1 w 10 h 2 n 4 t 33 bufs 220 2509  sinks 0 0  chk 6 134 10 35 8
+0.0750762 6 d 1 w 10 h 2 n 4 t 34 bufs 221 2509  sinks 0 0  chk 6 142 10 55 8
+0.170473 6 d 1 w 10 h 2 n 4 t 35 bufs 222 2509  sinks 0 0  chk 6 180 20 10 20
+0.169062 6 d 1 w 10 h 2 n 4 t 36 bufs 223 2509  sinks 0 0  chk 6 190 20 35 20
+0.168789 6 d 1 w 10 h 2 n 4 t 37 bufs 224 2509  sinks 0 0  chk 6 198 20 55 20
+0.293818 6 d 1 w 10 h 2 n 4 t 38 bufs 225 2509  sinks 0 0  chk 6 272 30 10 30
+0.290332 6 d 1 w 10 h 2 n 4 t 39 bufs 226 2509  sinks 0 0  chk 6 281 30 35 30
+0.290064 6 d 1 w 10 h 2 n 4 t 40 bufs 227 2509  sinks 0 0  chk 6 288 30 55 30
+-0.000182809 6 d 1 w 10 h 2 n 4 t 41 bufs 451 2509  sinks 0 0  chk 6 7 100 25 100
+-0.000285183 7 d 1 w 10 h 2 n 6 t 42 bufs 487 1256 879  sinks 0 0 0  chk 7 8 120 30 120
+0.0759995 0 d 1 w 10 h 4 n 2 t 43 bufs 2590  sinks 0  chk 0 282 10 20 8
+0.170061 0 d 1 w 10 h 4 n 2 t 44 bufs 2593  sinks 0  chk 0 508 20 20 20
+0.292576 0 d 1 w 10 h 4 n 2 t 45 bufs 2596  sinks 0  chk 0 647 30 20 30
+-8.04336e-05 0 d 1 w 10 h 4 n 2 t 46 bufs 2599  sinks 0  chk 0 2 140 20 140
+0.0763298 4 d 1 w 10 h 4 n 4 t 47 bufs 279 2539  sinks 0 0  chk 4 122 10 10 8
+0.0753111 4 d 1 w 10 h 4 n 4 t 48 bufs 280 2539  sinks 0 0  chk 4 132 10 35 8
+0.0751512 4 d 1 w 10 h 4 n 4 t 49 bufs 281 2539  sinks 0 0  chk 4 140 10 55 8
+0.170549 4 d 1 w 10 h 4 n 4 t 50 bufs 282 2539  sinks 0 0  chk 4 178 20 10 20
+0.169137 4 d 1 w 10 h 4 n 4 t 51 bufs 283 2539  sinks 0 0  chk 4 188 20 35 20
+0.168863 4 d 1 w 10 h 4 n 4 t 52 bufs 284 2539  sinks 0 0  chk 4 196 20 55 20
+0.293893 4 d 1 w 10 h 4 n 4 t 53 bufs 285 2539  sinks 0 0  chk 4 270 30 10 30
+0.290406 4 d 1 w 10 h 4 n 4 t 54 bufs 286 2539  sinks 0 0  chk 4 279 30 35 30
+0.290137 4 d 1 w 10 h 4 n 4 t 55 bufs 287 2539  sinks 0 0  chk 4 286 30 55 30
+0.0760752 0 d 1 w 10 h 6 n 2 t 56 bufs 2650  sinks 0  chk 0 282 10 20 8
+0.170136 0 d 1 w 10 h 6 n 2 t 57 bufs 2653  sinks 0  chk 0 508 20 20 20
+0.29265 0 d 1 w 10 h 6 n 2 t 58 bufs 2656  sinks 0  chk 0 647 30 20 30
+0.0764056 3 d 1 w 10 h 6 n 4 t 59 bufs 339 2569  sinks 0 0  chk 3 121 10 10 8
+0.0753867 3 d 1 w 10 h 6 n 4 t 60 bufs 340 2569  sinks 0 0  chk 3 131 10 35 8
+0.0752263 3 d 1 w 10 h 6 n 4 t 61 bufs 341 2569  sinks 0 0  chk 3 139 10 55 8
+0.170624 3 d 1 w 10 h 6 n 4 t 62 bufs 342 2569  sinks 0 0  chk 3 177 20 10 20
+0.169212 3 d 1 w 10 h 6 n 4 t 63 bufs 343 2569  sinks 0 0  chk 3 187 20 35 20
+0.168937 3 d 1 w 10 h 6 n 4 t 64 bufs 344 2569  sinks 0 0  chk 3 195 20 55 20
+0.293968 3 d 1 w 10 h 6 n 4 t 65 bufs 345 2569  sinks 0 0  chk 3 269 30 10 30
+0.29048 3 d 1 w 10 h 6 n 4 t 66 bufs 346 2569  sinks 0 0  chk 3 278 30 35 30
+0.29021 3 d 1 w 10 h 6 n 4 t 67 bufs 347 2569  sinks 0 0  chk 3 285 30 55 30
+0.0761635 0 d 1 w 10 h 8 n 2 t 68 bufs 2720  sinks 0  chk 0 282 10 20 8
+0.170224 0 d 1 w 10 h 8 n 2 t 69 bufs 2723  sinks 0  chk 0 508 20 20 20
+0.292737 0 d 1 w 10 h 8 n 2 t 70 bufs 2726  sinks 0  chk 0 647 30 20 30
+0.0764814 2 d 1 w 10 h 8 n 4 t 71 bufs 399 2599  sinks 0 0  chk 2 120 10 10 8
+0.0754623 2 d 1 w 10 h 8 n 4 t 72 bufs 400 2599  sinks 0 0  chk 2 130 10 35 8
+0.0753013 2 d 1 w 10 h 8 n 4 t 73 bufs 401 2599  sinks 0 0  chk 2 138 10 55 8
+0.1707 2 d 1 w 10 h 8 n 4 t 74 bufs 402 2599  sinks 0 0  chk 2 176 20 10 20
+0.169286 2 d 1 w 10 h 8 n 4 t 75 bufs 403 2599  sinks 0 0  chk 2 186 20 35 20
+0.16901 2 d 1 w 10 h 8 n 4 t 76 bufs 404 2599  sinks 0 0  chk 2 194 20 55 20
+0.294043 2 d 1 w 10 h 8 n 4 t 77 bufs 405 2599  sinks 0 0  chk 2 268 30 10 30
+0.290554 2 d 1 w 10 h 8 n 4 t 78 bufs 406 2599  sinks 0 0  chk 2 277 30 35 30
+0.290284 2 d 1 w 10 h 8 n 4 t 79 bufs 407 2599  sinks 0 0  chk 2 284 30 55 30
+0.0759364 0 d 1 w 12 h 2 n 2 t 300 bufs 2540  sinks 0  chk 0 282 10 20 8
+0.169999 0 d 1 w 12 h 2 n 2 t 301 bufs 2543  sinks 0  chk 0 508 20 20 20
+0.292514 0 d 1 w 12 h 2 n 2 t 302 bufs 2546  sinks 0  chk 0 647 30 20 30
+-8.04336e-05 0 d 1 w 12 h 2 n 2 t 303 bufs 2549  sinks 0  chk 0 4 90 20 90
+0.0764696 6 d 1 w 12 h 2 n 4 t 304 bufs 931 2509  sinks 0 0  chk 6 121 10 5 8
+0.0760613 6 d 1 w 12 h 2 n 4 t 305 bufs 930 2509  sinks 0 0  chk 6 212 10 15 8
+0.0751202 6 d 1 w 12 h 2 n 4 t 306 bufs 932 2509  sinks 0 0  chk 6 139 10 50 8
+0.170767 6 d 1 w 12 h 2 n 4 t 307 bufs 934 2509  sinks 0 0  chk 6 177 20 5 20
+0.170202 6 d 1 w 12 h 2 n 4 t 308 bufs 933 2509  sinks 0 0  chk 6 286 20 15 20
+0.168859 6 d 1 w 12 h 2 n 4 t 309 bufs 935 2509  sinks 0 0  chk 6 195 20 50 20
+0.294527 6 d 1 w 12 h 2 n 4 t 310 bufs 937 2509  sinks 0 0  chk 6 270 30 5 30
+0.293132 6 d 1 w 12 h 2 n 4 t 311 bufs 936 2509  sinks 0 0  chk 6 465 30 15 30
+0.290113 6 d 1 w 12 h 2 n 4 t 312 bufs 938 2509  sinks 0 0  chk 6 286 30 50 30
+-0.000171837 6 d 1 w 12 h 2 n 4 t 313 bufs 1276 2509  sinks 0 0  chk 6 8 100 25 100
+-0.000285183 7 d 1 w 12 h 2 n 6 t 314 bufs 487 1256 879  sinks 0 0 0  chk 7 8 120 30 120
+0.0760373 0 d 1 w 12 h 4 n 2 t 315 bufs 2620  sinks 0  chk 0 282 10 20 8
+0.170099 0 d 1 w 12 h 4 n 2 t 316 bufs 2623  sinks 0  chk 0 508 20 20 20
+0.292613 0 d 1 w 12 h 4 n 2 t 317 bufs 2626  sinks 0  chk 0 647 30 20 30
+0.0765707 4 d 1 w 12 h 4 n 4 t 318 bufs 1011 2549  sinks 0 0  chk 4 120 10 5 8
+0.0761623 4 d 1 w 12 h 4 n 4 t 319 bufs 1010 2549  sinks 0 0  chk 4 210 10 15 8
+0.0752205 4 d 1 w 12 h 4 n 4 t 320 bufs 1012 2549  sinks 0 0  chk 4 138 10 50 8
+0.170868 4 d 1 w 12 h 4 n 4 t 321 bufs 1014 2549  sinks 0 0  chk 4 176 20 5 20
+0.170302 4 d 1 w 12 h 4 n 4 t 322 bufs 1013 2549  sinks 0 0  chk 4 284 20 15 20
+0.168958 4 d 1 w 12 h 4 n 4 t 323 bufs 1015 2549  sinks 0 0  chk 4 194 20 50 20
+0.294627 4 d 1 w 12 h 4 n 4 t 324 bufs 1017 2549  sinks 0 0  chk 4 269 30 5 30
+0.293232 4 d 1 w 12 h 4 n 4 t 325 bufs 1016 2549  sinks 0 0  chk 4 463 30 15 30
+0.290211 4 d 1 w 12 h 4 n 4 t 326 bufs 1018 2549  sinks 0 0  chk 4 285 30 50 30
+0.0761257 0 d 1 w 12 h 6 n 2 t 354 bufs 2690  sinks 0  chk 0 282 10 20 8
+0.170187 0 d 1 w 12 h 6 n 2 t 355 bufs 2693  sinks 0  chk 0 508 20 20 20
+0.2927 0 d 1 w 12 h 6 n 2 t 356 bufs 2696  sinks 0  chk 0 647 30 20 30
+0.0766718 2 d 1 w 12 h 6 n 4 t 357 bufs 1091 2589  sinks 0 0  chk 2 119 10 5 8
+0.0762633 2 d 1 w 12 h 6 n 4 t 358 bufs 1090 2589  sinks 0 0  chk 2 209 10 15 8
+0.0753207 2 d 1 w 12 h 6 n 4 t 359 bufs 1092 2589  sinks 0 0  chk 2 137 10 50 8
+0.170969 2 d 1 w 12 h 6 n 4 t 360 bufs 1094 2589  sinks 0 0  chk 2 175 20 5 20
+0.170403 2 d 1 w 12 h 6 n 4 t 361 bufs 1093 2589  sinks 0 0  chk 2 283 20 15 20
+0.169056 2 d 1 w 12 h 6 n 4 t 362 bufs 1095 2589  sinks 0 0  chk 2 193 20 50 20
+0.294728 2 d 1 w 12 h 6 n 4 t 363 bufs 1097 2589  sinks 0 0  chk 2 268 30 5 30
+0.293331 2 d 1 w 12 h 6 n 4 t 364 bufs 1096 2589  sinks 0 0  chk 2 461 30 15 30
+0.290309 2 d 1 w 12 h 6 n 4 t 365 bufs 1098 2589  sinks 0 0  chk 2 285 30 50 30
+-6.94618e-05 0 d 1 w 14 h 2 n 2 t 288 bufs 4785  sinks 0  chk 0 4 100 20 100
+0.0765059 7 d 1 w 14 h 2 n 4 t 289 bufs 951 4745  sinks 0 0  chk 7 122 10 5 8
+0.0760975 7 d 1 w 14 h 2 n 4 t 290 bufs 950 4745  sinks 0 0  chk 7 213 10 15 8
+0.0751562 7 d 1 w 14 h 2 n 4 t 291 bufs 952 4745  sinks 0 0  chk 7 140 10 50 8
+0.170803 7 d 1 w 14 h 2 n 4 t 292 bufs 954 4745  sinks 0 0  chk 7 178 20 5 20
+0.170238 7 d 1 w 14 h 2 n 4 t 293 bufs 953 4745  sinks 0 0  chk 7 287 20 15 20
+0.168895 7 d 1 w 14 h 2 n 4 t 294 bufs 955 4745  sinks 0 0  chk 7 196 20 50 20
+0.294563 7 d 1 w 14 h 2 n 4 t 295 bufs 957 4745  sinks 0 0  chk 7 271 30 5 30
+0.293168 7 d 1 w 14 h 2 n 4 t 296 bufs 956 4745  sinks 0 0  chk 7 466 30 15 30
+0.290149 7 d 1 w 14 h 2 n 4 t 297 bufs 958 4745  sinks 0 0  chk 7 288 30 50 30
+-0.000160866 7 d 1 w 14 h 2 n 4 t 298 bufs 1296 4745  sinks 0 0  chk 7 9 120 25 120
+-0.000285183 7 d 1 w 14 h 2 n 6 t 299 bufs 487 1256 879  sinks 0 0 0  chk 7 8 120 30 120
+0.076607 4 d 1 w 14 h 4 n 4 t 336 bufs 1031 4785  sinks 0 0  chk 4 120 10 5 8
+0.0761985 4 d 1 w 14 h 4 n 4 t 337 bufs 1030 4785  sinks 0 0  chk 4 210 10 15 8
+0.0752565 4 d 1 w 14 h 4 n 4 t 338 bufs 1032 4785  sinks 0 0  chk 4 138 10 50 8
+0.170904 4 d 1 w 14 h 4 n 4 t 339 bufs 1034 4785  sinks 0 0  chk 4 177 20 5 20
+0.170338 4 d 1 w 14 h 4 n 4 t 340 bufs 1033 4785  sinks 0 0  chk 4 285 20 15 20
+0.168993 4 d 1 w 14 h 4 n 4 t 341 bufs 1035 4785  sinks 0 0  chk 4 194 20 50 20
+0.294663 4 d 1 w 14 h 4 n 4 t 342 bufs 1037 4785  sinks 0 0  chk 4 269 30 5 30
+0.293268 4 d 1 w 14 h 4 n 4 t 343 bufs 1036 4785  sinks 0 0  chk 4 463 30 15 30
+0.290247 4 d 1 w 14 h 4 n 4 t 344 bufs 1038 4785  sinks 0 0  chk 4 286 30 50 30
+0.0767334 2 d 1 w 14 h 6 n 4 t 345 bufs 1131 4835  sinks 0 0  chk 2 120 10 5 8
+0.0763248 2 d 1 w 14 h 6 n 4 t 346 bufs 1130 4835  sinks 0 0  chk 2 209 10 15 8
+0.0753818 2 d 1 w 14 h 6 n 4 t 347 bufs 1132 4835  sinks 0 0  chk 2 138 10 50 8
+0.17103 2 d 1 w 14 h 6 n 4 t 348 bufs 1134 4835  sinks 0 0  chk 2 176 20 5 20
+0.170464 2 d 1 w 14 h 6 n 4 t 349 bufs 1133 4835  sinks 0 0  chk 2 283 20 15 20
+0.169117 2 d 1 w 14 h 6 n 4 t 350 bufs 1135 4835  sinks 0 0  chk 2 194 20 50 20
+0.294789 2 d 1 w 14 h 6 n 4 t 351 bufs 1137 4835  sinks 0 0  chk 2 268 30 5 30
+0.293392 2 d 1 w 14 h 6 n 4 t 352 bufs 1136 4835  sinks 0 0  chk 2 461 30 15 30
+0.290369 2 d 1 w 14 h 6 n 4 t 353 bufs 1138 4835  sinks 0 0  chk 2 285 30 50 30
+-6.94618e-05 0 d 1 w 16 h 2 n 2 t 472 bufs 4805  sinks 0  chk 0 3 120 20 120
+0.0765312 6 d 1 w 16 h 2 n 4 t 473 bufs 971 4755  sinks 0 0  chk 6 122 10 5 8
+0.0761228 6 d 1 w 16 h 2 n 4 t 474 bufs 970 4755  sinks 0 0  chk 6 212 10 15 8
+0.0751813 6 d 1 w 16 h 2 n 4 t 475 bufs 972 4755  sinks 0 0  chk 6 139 10 50 8
+0.170829 6 d 1 w 16 h 2 n 4 t 476 bufs 974 4755  sinks 0 0  chk 6 178 20 5 20
+0.170263 6 d 1 w 16 h 2 n 4 t 477 bufs 973 4755  sinks 0 0  chk 6 286 20 15 20
+0.168919 6 d 1 w 16 h 2 n 4 t 478 bufs 975 4755  sinks 0 0  chk 6 196 20 50 20
+0.294588 6 d 1 w 16 h 2 n 4 t 479 bufs 977 4755  sinks 0 0  chk 6 270 30 5 30
+0.293193 6 d 1 w 16 h 2 n 4 t 480 bufs 976 4755  sinks 0 0  chk 6 465 30 15 30
+0.290173 6 d 1 w 16 h 2 n 4 t 481 bufs 978 4755  sinks 0 0  chk 6 287 30 50 30
+-0.000160866 6 d 1 w 16 h 2 n 4 t 482 bufs 1316 4755  sinks 0 0  chk 6 7 140 25 140
+-0.000263243 9 d 1 w 16 h 2 n 6 t 483 bufs 490 2896 2509  sinks 0 0 0  chk 9 10 150 30 150
+0.0766575 3 d 1 w 16 h 4 n 4 t 484 bufs 1071 4805  sinks 0 0  chk 3 120 10 5 8
+0.076249 3 d 1 w 16 h 4 n 4 t 485 bufs 1070 4805  sinks 0 0  chk 3 210 10 15 8
+0.0753066 3 d 1 w 16 h 4 n 4 t 486 bufs 1072 4805  sinks 0 0  chk 3 138 10 50 8
+0.170955 3 d 1 w 16 h 4 n 4 t 487 bufs 1074 4805  sinks 0 0  chk 3 176 20 5 20
+0.170389 3 d 1 w 16 h 4 n 4 t 488 bufs 1073 4805  sinks 0 0  chk 3 284 20 15 20
+0.169043 3 d 1 w 16 h 4 n 4 t 489 bufs 1075 4805  sinks 0 0  chk 3 194 20 50 20
+0.294713 3 d 1 w 16 h 4 n 4 t 490 bufs 1077 4805  sinks 0 0  chk 3 269 30 5 30
+0.293317 3 d 1 w 16 h 4 n 4 t 491 bufs 1076 4805  sinks 0 0  chk 3 462 30 15 30
+0.290295 3 d 1 w 16 h 4 n 4 t 492 bufs 1078 4805  sinks 0 0  chk 3 285 30 50 30
+0.076522 0 d 1 w 18 h 2 n 2 t 366 bufs 4817 258  sinks 0  chk 0 115 10 5 8
+0.256891 0 d 1 w 18 h 2 n 2 t 367 bufs 4818 258  sinks 0  chk 0 635 10 25 8
+0.0752342 0 d 1 w 18 h 2 n 2 t 368 bufs 4816 258  sinks 0  chk 0 365 10 40 8
+0.169123 0 d 1 w 18 h 2 n 2 t 369 bufs 4819 258  sinks 0  chk 0 668 20 35 20
+0.169125 0 d 1 w 18 h 2 n 2 t 370 bufs 4820 258  sinks 0  chk 0 288 20 35 20
+0.350106 0 d 1 w 18 h 2 n 2 t 371 bufs 4821 258  sinks 0  chk 0 695 20 45 20
+0.290392 0 d 1 w 18 h 2 n 2 t 372 bufs 4822 258  sinks 0  chk 0 839 30 35 30
+0.290394 0 d 1 w 18 h 2 n 2 t 373 bufs 4823 258  sinks 0  chk 0 469 30 35 30
+0.471588 0 d 1 w 18 h 2 n 2 t 374 bufs 4824 258  sinks 0  chk 0 786 30 35 30
+-0.000171837 0 d 1 w 18 h 2 n 2 t 375 bufs 5162 258  sinks 0  chk 0 3 140 25 140
+0.155635 7 d 1 w 18 h 2 n 4 t 376 bufs 1317 5102 198  sinks 0 0  chk 7 283 10 10 8
+0.1546 7 d 1 w 18 h 2 n 4 t 377 bufs 1318 5102 198  sinks 0 0  chk 7 293 10 35 8
+0.154389 7 d 1 w 18 h 2 n 4 t 378 bufs 1319 5102 198  sinks 0 0  chk 7 301 10 55 8
+0.249842 7 d 1 w 18 h 2 n 4 t 379 bufs 1320 5102 198  sinks 0 0  chk 7 337 20 10 20
+0.248362 7 d 1 w 18 h 2 n 4 t 380 bufs 1321 5102 198  sinks 0 0  chk 7 347 20 35 20
+0.248012 7 d 1 w 18 h 2 n 4 t 381 bufs 1322 5102 198  sinks 0 0  chk 7 355 20 55 20
+0.373144 7 d 1 w 18 h 2 n 4 t 382 bufs 1323 5102 198  sinks 0 0  chk 7 422 30 10 30
+0.369558 7 d 1 w 18 h 2 n 4 t 383 bufs 1324 5102 198  sinks 0 0  chk 7 432 30 35 30
+0.369234 7 d 1 w 18 h 2 n 4 t 384 bufs 1325 5102 198  sinks 0 0  chk 7 440 30 55 30
+-0.000263241 7 d 1 w 18 h 2 n 4 t 385 bufs 1663 5102 198  sinks 0 0  chk 7 8 150 30 150
+0.155646 9 d 1 w 18 h 2 n 6 t 386 bufs 1317 2896 2509  sinks 0 0 0  chk 9 285 10 10 8
+0.154611 9 d 1 w 18 h 2 n 6 t 387 bufs 1318 2896 2509  sinks 0 0 0  chk 9 295 10 35 8
+0.1544 9 d 1 w 18 h 2 n 6 t 388 bufs 1319 2896 2509  sinks 0 0 0  chk 9 303 10 55 8
+0.249853 9 d 1 w 18 h 2 n 6 t 389 bufs 1320 2896 2509  sinks 0 0 0  chk 9 339 20 10 20
+0.248373 9 d 1 w 18 h 2 n 6 t 390 bufs 1321 2896 2509  sinks 0 0 0  chk 9 349 20 35 20
+0.248023 9 d 1 w 18 h 2 n 6 t 391 bufs 1322 2896 2509  sinks 0 0 0  chk 9 357 20 55 20
+0.373155 9 d 1 w 18 h 2 n 6 t 392 bufs 1323 2896 2509  sinks 0 0 0  chk 9 424 30 10 30
+0.369569 9 d 1 w 18 h 2 n 6 t 393 bufs 1324 2896 2509  sinks 0 0 0  chk 9 434 30 35 30
+0.369245 9 d 1 w 18 h 2 n 6 t 394 bufs 1325 2896 2509  sinks 0 0 0  chk 9 442 30 55 30
+-0.000252271 9 d 1 w 18 h 2 n 6 t 395 bufs 1663 2896 2509  sinks 0 0 0  chk 9 10 150 30 150
+0.0766611 0 d 1 w 18 h 4 n 2 t 396 bufs 4927 368  sinks 0  chk 0 120 10 5 8
+0.257029 0 d 1 w 18 h 4 n 2 t 397 bufs 4928 368  sinks 0  chk 0 635 10 25 8
+0.0753726 0 d 1 w 18 h 4 n 2 t 398 bufs 4926 368  sinks 0  chk 0 365 10 40 8
+0.16926 0 d 1 w 18 h 4 n 2 t 399 bufs 4929 368  sinks 0  chk 0 668 20 35 20
+0.169261 0 d 1 w 18 h 4 n 2 t 400 bufs 4930 368  sinks 0  chk 0 291 20 35 20
+0.350244 0 d 1 w 18 h 4 n 2 t 401 bufs 4931 368  sinks 0  chk 0 695 20 45 20
+0.290528 0 d 1 w 18 h 4 n 2 t 402 bufs 4932 368  sinks 0  chk 0 839 30 35 30
+0.290529 0 d 1 w 18 h 4 n 2 t 403 bufs 4933 368  sinks 0  chk 0 472 30 35 30
+0.471726 0 d 1 w 18 h 4 n 2 t 404 bufs 4934 368  sinks 0  chk 0 786 30 35 30
+0.155781 3 d 1 w 18 h 4 n 4 t 405 bufs 1437 5162 258  sinks 0 0  chk 3 279 10 10 8
+0.154745 3 d 1 w 18 h 4 n 4 t 406 bufs 1438 5162 258  sinks 0 0  chk 3 289 10 35 8
+0.154534 3 d 1 w 18 h 4 n 4 t 407 bufs 1439 5162 258  sinks 0 0  chk 3 297 10 55 8
+0.249987 3 d 1 w 18 h 4 n 4 t 408 bufs 1440 5162 258  sinks 0 0  chk 3 333 20 10 20
+0.248508 3 d 1 w 18 h 4 n 4 t 409 bufs 1441 5162 258  sinks 0 0  chk 3 343 20 35 20
+0.248158 3 d 1 w 18 h 4 n 4 t 410 bufs 1442 5162 258  sinks 0 0  chk 3 351 20 55 20
+0.37329 3 d 1 w 18 h 4 n 4 t 411 bufs 1443 5162 258  sinks 0 0  chk 3 418 30 10 30
+0.369704 3 d 1 w 18 h 4 n 4 t 412 bufs 1444 5162 258  sinks 0 0  chk 3 428 30 35 30
+0.36938 3 d 1 w 18 h 4 n 4 t 413 bufs 1445 5162 258  sinks 0 0  chk 3 436 30 55 30
+0.155792 4 d 1 w 18 h 4 n 6 t 414 bufs 1437 2976 2549  sinks 0 0 0  chk 4 280 10 10 8
+0.154756 4 d 1 w 18 h 4 n 6 t 415 bufs 1438 2976 2549  sinks 0 0 0  chk 4 290 10 35 8
+0.154545 4 d 1 w 18 h 4 n 6 t 416 bufs 1439 2976 2549  sinks 0 0 0  chk 4 298 10 55 8
+0.249998 4 d 1 w 18 h 4 n 6 t 417 bufs 1440 2976 2549  sinks 0 0 0  chk 4 334 20 10 20
+0.248519 4 d 1 w 18 h 4 n 6 t 418 bufs 1441 2976 2549  sinks 0 0 0  chk 4 344 20 35 20
+0.248169 4 d 1 w 18 h 4 n 6 t 419 bufs 1442 2976 2549  sinks 0 0 0  chk 4 352 20 55 20
+0.373301 4 d 1 w 18 h 4 n 6 t 420 bufs 1443 2976 2549  sinks 0 0 0  chk 4 419 30 10 30
+0.369715 4 d 1 w 18 h 4 n 6 t 421 bufs 1444 2976 2549  sinks 0 0 0  chk 4 429 30 35 30
+0.369391 4 d 1 w 18 h 4 n 6 t 422 bufs 1445 2976 2549  sinks 0 0 0  chk 4 437 30 55 30
+0.0766989 0 d 1 w 20 h 4 n 2 t 423 bufs 4957 398  sinks 0  chk 0 121 10 5 8
+0.257066 0 d 1 w 20 h 4 n 2 t 424 bufs 4958 398  sinks 0  chk 0 635 10 25 8
+0.155264 0 d 1 w 20 h 4 n 2 t 425 bufs 5293 398  sinks 0  chk 0 371 10 25 8
+0.0754103 0 d 1 w 20 h 4 n 2 t 426 bufs 4956 398  sinks 0  chk 0 365 10 40 8
+0.169297 0 d 1 w 20 h 4 n 2 t 427 bufs 4959 398  sinks 0  chk 0 668 20 35 20
+0.169299 0 d 1 w 20 h 4 n 2 t 428 bufs 4960 398  sinks 0  chk 0 292 20 35 20
+0.350281 0 d 1 w 20 h 4 n 2 t 429 bufs 4961 398  sinks 0  chk 0 695 20 45 20
+0.290565 0 d 1 w 20 h 4 n 2 t 430 bufs 4962 398  sinks 0  chk 0 839 30 35 30
+0.290566 0 d 1 w 20 h 4 n 2 t 431 bufs 4963 398  sinks 0  chk 0 472 30 35 30
+0.471763 0 d 1 w 20 h 4 n 2 t 432 bufs 4964 398  sinks 0  chk 0 786 30 35 30
+0.234735 3 d 1 w 20 h 4 n 4 t 433 bufs 3078 5172 268  sinks 0 0  chk 3 440 10 15 8
+0.490446 3 d 1 w 20 h 4 n 4 t 434 bufs 3079 5172 268  sinks 0 0  chk 3 652 10 30 8
+0.593867 3 d 1 w 20 h 4 n 4 t 435 bufs 3416 5172 268  sinks 0 0  chk 3 739 10 30 8
+0.15478 3 d 1 w 20 h 4 n 4 t 436 bufs 3077 5172 268  sinks 0 0  chk 3 376 10 35 8
+0.248543 3 d 1 w 20 h 4 n 4 t 437 bufs 3080 5172 268  sinks 0 0  chk 3 447 20 35 20
+0.327677 3 d 1 w 20 h 4 n 4 t 438 bufs 3081 5172 268  sinks 0 0  chk 3 502 20 35 20
+0.582791 3 d 1 w 20 h 4 n 4 t 439 bufs 3082 5172 268  sinks 0 0  chk 3 704 20 35 20
+0.36974 3 d 1 w 20 h 4 n 4 t 440 bufs 3083 5172 268  sinks 0 0  chk 3 613 30 35 30
+0.448876 3 d 1 w 20 h 4 n 4 t 441 bufs 3084 5172 268  sinks 0 0  chk 3 586 30 35 30
+0.703442 3 d 1 w 20 h 4 n 4 t 442 bufs 3085 5172 268  sinks 0 0  chk 3 788 30 35 30
+0.155828 4 d 1 w 20 h 4 n 6 t 443 bufs 1467 2996 2559  sinks 0 0 0  chk 4 280 10 10 8
+0.154793 4 d 1 w 20 h 4 n 6 t 444 bufs 1468 2996 2559  sinks 0 0 0  chk 4 290 10 35 8
+0.154582 4 d 1 w 20 h 4 n 6 t 445 bufs 1469 2996 2559  sinks 0 0 0  chk 4 298 10 55 8
+0.250035 4 d 1 w 20 h 4 n 6 t 446 bufs 1470 2996 2559  sinks 0 0 0  chk 4 334 20 10 20
+0.248555 4 d 1 w 20 h 4 n 6 t 447 bufs 1471 2996 2559  sinks 0 0 0  chk 4 344 20 35 20
+0.248205 4 d 1 w 20 h 4 n 6 t 448 bufs 1472 2996 2559  sinks 0 0 0  chk 4 352 20 55 20
+0.373337 4 d 1 w 20 h 4 n 6 t 449 bufs 1473 2996 2559  sinks 0 0 0  chk 4 419 30 10 30
+0.369752 4 d 1 w 20 h 4 n 6 t 450 bufs 1474 2996 2559  sinks 0 0 0  chk 4 429 30 35 30
+0.369427 4 d 1 w 20 h 4 n 6 t 451 bufs 1475 2996 2559  sinks 0 0 0  chk 4 437 30 55 30
+0.0767352 0 d 1 w 22 h 4 n 2 t 452 bufs 4977 1129  sinks 0  chk 0 124 10 5 8
+0.257102 0 d 1 w 22 h 4 n 2 t 453 bufs 4978 1129  sinks 0  chk 0 637 10 25 8
+0.155299 0 d 1 w 22 h 4 n 2 t 454 bufs 5313 1129  sinks 0  chk 0 373 10 25 8
+0.0754465 0 d 1 w 22 h 4 n 2 t 455 bufs 4976 1129  sinks 0  chk 0 367 10 40 8
+0.169616 0 d 1 w 22 h 4 n 2 t 456 bufs 4979 1129  sinks 0  chk 0 668 20 30 20
+0.169617 0 d 1 w 22 h 4 n 2 t 457 bufs 4980 1129  sinks 0  chk 0 293 20 30 20
+0.350317 0 d 1 w 22 h 4 n 2 t 458 bufs 4981 1129  sinks 0  chk 0 697 20 45 20
+0.2906 0 d 1 w 22 h 4 n 2 t 459 bufs 4982 1129  sinks 0  chk 0 841 30 35 30
+0.290601 0 d 1 w 22 h 4 n 2 t 460 bufs 4983 1129  sinks 0  chk 0 475 30 35 30
+0.471799 0 d 1 w 22 h 4 n 2 t 461 bufs 4984 1129  sinks 0  chk 0 788 30 35 30
+0.23477 2 d 1 w 22 h 4 n 4 t 462 bufs 3098 5182 989  sinks 0 0  chk 2 439 10 15 8
+0.490481 2 d 1 w 22 h 4 n 4 t 463 bufs 3099 5182 989  sinks 0 0  chk 2 651 10 30 8
+0.593901 2 d 1 w 22 h 4 n 4 t 464 bufs 3436 5182 989  sinks 0 0  chk 2 738 10 30 8
+0.154816 2 d 1 w 22 h 4 n 4 t 465 bufs 3097 5182 989  sinks 0 0  chk 2 375 10 35 8
+0.248579 2 d 1 w 22 h 4 n 4 t 466 bufs 3100 5182 989  sinks 0 0  chk 2 446 20 35 20
+0.327712 2 d 1 w 22 h 4 n 4 t 467 bufs 3101 5182 989  sinks 0 0  chk 2 501 20 35 20
+0.582826 2 d 1 w 22 h 4 n 4 t 468 bufs 3102 5182 989  sinks 0 0  chk 2 703 20 35 20
+0.369775 2 d 1 w 22 h 4 n 4 t 469 bufs 3103 5182 989  sinks 0 0  chk 2 612 30 35 30
+0.448911 2 d 1 w 22 h 4 n 4 t 470 bufs 3104 5182 989  sinks 0 0  chk 2 585 30 35 30
+0.703478 2 d 1 w 22 h 4 n 4 t 471 bufs 3105 5182 989  sinks 0 0  chk 2 787 30 35 30

@@ -1,0 +1,7 @@
+How I got this Running (with the help of Tutu!):
+
+1. After synthesis there are two lines with syntax errors related to assigns with concats on the LHS. Manually fixed.
+2. There was an issue with the TD-MS engine for macro placement. We disabled that part of the flow and enabled random placement.
+3. The IP_GLOBAL_CFG was missing. Tutu provided a 65nm file that I linked which seemed to work even though I am targeting 45nm.
+4. 
+
